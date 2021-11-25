@@ -1,4 +1,4 @@
-//Trigger action: if a new project has the same id as an old one, overwrite the project type of the old project to be the new input
+--Trigger action: if a new project has the same id as an old one, overwrite the project type of the old project to be the new input
 CREATE TRIGGER before_projects_insert
 BEFORE INSERT
 ON Projects FOR EACH ROW
